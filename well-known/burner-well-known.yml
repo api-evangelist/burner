@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+host: https://www.burnerapp.com
+notes: >-
+  Probed the /.well-known/ discovery surface on the marketing host (www.burnerapp.com)
+  and the API host (api.burnerapp.com). None of the standard discovery documents are
+  published. api.burnerapp.com returns HTTP 400 to unauthenticated requests. Absence
+  recorded as valid data.
+documents:
+  - path: /.well-known/security.txt
+    host: https://www.burnerapp.com
+    status: 404
+  - path: /.well-known/openid-configuration
+    host: https://www.burnerapp.com
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    host: https://www.burnerapp.com
+    status: 404
+  - path: /.well-known/api-catalog
+    host: https://www.burnerapp.com
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    host: https://www.burnerapp.com
+    status: 404
+  - path: /.well-known/security.txt
+    host: https://api.burnerapp.com
+    status: 400

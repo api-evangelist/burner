@@ -1,0 +1,32 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/adhoclabs
+notes: >-
+  Burner (Ad Hoc Labs) publishes no client library to npm, PyPI, Maven Central,
+  NuGet, RubyGems, Packagist or crates.io. Its first-party developer tooling is
+  distributed via GitHub: the Burner App Starter Kit (BASK), an open-source
+  React/Express/Node framework for building Burner-integrated apps that ships the
+  official Burner API client (src/core/BurnerApi.js), and an official Android SDK
+  sample. These are the official, first-party starting points for the Burner API.
+packages:
+  - language: javascript
+    registry: github
+    name: burner-app-starter-kit
+    url: https://github.com/adhoclabs/burner-app-starter-kit
+    install: >-
+      git clone -o burner-app-starter-kit -b master --single-branch
+      https://github.com/adhoclabs/burner-app-starter-kit MyApp
+    official: true
+    kind: framework
+    description: >-
+      Burner App Starter Kit (BASK) — React/Express/Node framework bundling the
+      official Burner API client (Bearer/OAuth2, X-Application-Version header,
+      /v1/burners + /v1/messages).
+  - language: java
+    registry: github
+    name: BurnerAndroidSDKSample
+    url: https://github.com/adhoclabs/BurnerAndroidSDKSample
+    install: git clone https://github.com/adhoclabs/BurnerAndroidSDKSample
+    official: true
+    kind: sdk-sample
+    description: Official Burner Android SDK sample project.

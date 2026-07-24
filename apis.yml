@@ -1,7 +1,15 @@
 aid: burner
 name: Burner
-description: Burner is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Burner is the original second-phone-number app from Ad Hoc Labs (founded 2012,
+  Los Angeles), letting people create multiple temporary or permanent phone numbers
+  on a single iOS or Android device for privacy, communication management, and
+  boundary-setting. Burner supports voice calls, SMS and MMS over VoIP/PSTN, with
+  spam blocking, voicemail transcription, auto-reply and multi-line management. For
+  developers, Burner exposes an OAuth 2.0 REST API (api.burnerapp.com) for
+  programmatic line management and messaging, a webhook system for real-time event
+  notifications, and the open-source Burner App Starter Kit (BASK) for building
+  Burner-integrated apps and bots such as Hostbot and Ghostbot.
 url: https://raw.githubusercontent.com/api-evangelist/burner/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +17,60 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/61a66db931b63404b86e2ae5/61c08c40a49820520cc24482_OpenGraph.jpg
 tags:
 - Company
-apis: []
+- Phone Numbers
+- SMS
+- MMS
+- Voice
+- Messaging
+- Telephony
+- Privacy
+- Communications
+- Second Phone Number
+- OAuth
+- Webhooks
+apis:
+- name: Burner API
+  description: >-
+    OAuth 2.0 REST API for programmatic access to Burner line management, messaging
+    (SMS/MMS) and configuration, plus a webhook system for real-time event
+    notifications. Requests use `Authorization: Bearer <token>` and an
+    `X-Application-Version` header against /v1 resource paths. The Burner App Starter
+    Kit (BASK) is the first-party client reference.
+  humanURL: https://github.com/adhoclabs/burner-app-starter-kit
+  baseURL: https://api.burnerapp.com
+  tags:
+  - Phone Numbers
+  - SMS
+  - Messaging
+  - Voice
+  - Telephony
+  properties:
+  - type: Authentication
+    url: authentication/burner-authentication.yml
+  - type: Conventions
+    url: conventions/burner-conventions.yml
+  - type: Webhooks
+    url: asyncapi/burner-webhooks.yml
+  - type: MCPServer
+    url: mcp/burner-mcp.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -22,4 +78,47 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://burnerapp.com
+  url: https://www.burnerapp.com
+- type: Documentation
+  url: https://github.com/adhoclabs/burner-app-starter-kit
+- type: GitHubOrganization
+  url: https://github.com/adhoclabs
+- type: Blog
+  url: https://www.burnerapp.com/blog
+- type: Pricing
+  url: https://www.burnerapp.com/pricing
+- type: Login
+  url: https://app.burnerapp.com/login
+- type: Support
+  url: https://support.burnerapp.com/
+- type: TermsOfService
+  url: https://www.burnerapp.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.adhoclabs.co/privacy-policy
+- type: StatusPage
+  url: https://status.burnerapp.com/
+- type: LLMsTxt
+  url: llms/burner-llms.txt
+- type: Packages
+  url: packages/burner-packages.yml
+- type: SDKs
+  url: packages/burner-packages.yml
+- type: Authentication
+  url: authentication/burner-authentication.yml
+- type: Conventions
+  url: conventions/burner-conventions.yml
+- type: Conformance
+  url: conformance/burner-conformance.yml
+- type: Lifecycle
+  url: lifecycle/burner-lifecycle.yml
+- type: Webhooks
+  url: asyncapi/burner-webhooks.yml
+- type: MCPServer
+  url: mcp/burner-mcp.yml
+- type: DomainSecurity
+  url: security/burner-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

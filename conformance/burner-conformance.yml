@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+source: >-
+  https://www.burnerapp.com/llms.txt ;
+  https://github.com/adhoclabs/burner-app-starter-kit
+notes: >-
+  Cross-cutting standards the Burner API conforms to, from the documented developer
+  surface and the first-party client. No published OpenAPI spec to derive from.
+standards:
+  - id: oauth2
+    conforms: true
+    evidence: >-
+      OAuth 2.0 authorization-code flow documented for API access and third-party
+      integrations (llms.txt; BASK "Request Burner OAuth app credentials").
+  - id: rest
+    conforms: true
+    evidence: RESTful API over /v1 resource paths (burners, messages) with JSON bodies.
+  - id: webhooks
+    conforms: true
+    evidence: Documented webhook system for real-time event notifications.
+  - id: oidc
+    conforms: false
+  - id: rfc9457-problem-details
+    conforms: false
+  - id: fapi
+    conforms: false

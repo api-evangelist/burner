@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: >-
+  https://status.burnerapp.com/ ;
+  https://github.com/adhoclabs/burner-app-starter-kit (src/core/BurnerApi.js)
+notes: >-
+  Versioning and operational-transparency surface for the Burner API. Status page
+  live and reporting "All Systems Operational". No public deprecation policy, SLA,
+  or dated changelog was found; those are left unasserted rather than invented.
+versioning:
+  scheme: uri-path
+  current: v1
+  app_version_header: X-Application-Version
+status_page: https://status.burnerapp.com/
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla:
+  url: null

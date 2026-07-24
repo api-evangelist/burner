@@ -1,0 +1,17 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.burnerapp.com/llms.txt
+spec_type: Webhooks
+notes: >-
+  Burner documents a webhook system for real-time event notifications, used to build
+  bots and automations on the Burner API (e.g. Hostbot, Ghostbot, custom bots). The
+  provider publishes no AsyncAPI document and no machine-readable event catalog, so
+  no event schemas are asserted here — only the documented existence of the webhook
+  surface. Not fabricated: individual event names/payloads are not published.
+webhooks:
+  supported: true
+  purpose: real-time event notifications (inbound messages/calls) for bots and automations
+  evidence:
+    - "llms.txt: \"webhook system for real-time event notifications\""
+    - "llms.txt: \"developer documentation with OAuth 2.0 guides, webhook examples, and API references\""
+  events_catalog_published: false

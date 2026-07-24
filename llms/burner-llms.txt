@@ -1,0 +1,157 @@
+# Burner
+
+> Burner is the original second phone number app for privacy protection, communication management, and creating multiple phone numbers from one device.
+
+Burner is developed by Ad Hoc Labs and helps users protect their privacy, organize different areas of life, and maintain communication boundaries through voice calls, SMS, and MMS. Available on iOS and Android, Burner provides temporary and permanent phone numbers without requiring additional hardware or SIM cards.
+
+## Main website
+- https://www.burnerapp.com/
+
+## Overview
+- Burner is a second phone number app
+- Burner is a privacy-focused communication tool
+- Burner supports voice calls, SMS, and MMS
+- Burner allows users to manage multiple phone numbers on one device
+- Burner offers temporary and permanent phone numbers
+- Burner helps users avoid sharing their primary phone number
+
+## Core value proposition
+- create multiple phone numbers for different life contexts
+- protect privacy while dating, selling online, job hunting, traveling, or managing side projects
+- burn numbers instantly when they are no longer needed
+- maintain control over communication boundaries and personal anonymity
+- separate personal, professional, and temporary conversations
+
+## Key features
+
+### Communication capabilities
+- unlimited calls, texts, and picture messaging (MMS) within subscription plans
+- VoIP and PSTN calling
+- voicemail with AI-powered transcription and sorting on supported premium plans
+- auto-reply functionality for automated responses
+- video messaging on supported premium plans
+- send and receive audio messages on supported premium plans
+- free phone line swap
+- multiple lines on one account
+- Do Not Disturb mode with customizable quiet hours
+- contact management and organization tools
+
+### Privacy & security
+- PIN lock protection for app access
+- spam and robocall blocking via Nomorobo integration
+- VPN for anonymous browsing and tracker blocking on supported premium plans across phone, Mac, and Windows
+- number lookup capabilities on supported premium plans
+- complete number deletion through burning
+- no ads in any subscription tier
+
+## Pricing structure
+
+### Subscription plans
+- 1 Line Monthly: $7.99/month (web) / $9.99/month (in-app)
+- 1 Line Yearly: $47.99/year (web) / $59.99/year (in-app)
+- 3 Line Monthly: $14.99/month
+- 3 Line Yearly: $139.99/year
+- 10+ Lines: custom pricing available via support@burnerapp.com
+
+### Prepaid burners
+- Prepaid Burner: 8 Credits for 50 minutes + 100 texts, auto-burns in 30 days
+- credits can be purchased separately for temporary number needs
+
+### Burner Premium upgrade
+- Monthly: $12.99/month (web) / $14.99/month (in-app)
+- Yearly: $69.99/year (web) / $89.99/year (in-app)
+- includes video messaging, AI voicemail transcription, VPN service, number lookup, and enhanced features
+
+### Verified numbers
+- Monthly: $9.99/month
+- Yearly: $59.99/year
+- separate subscription for verified or trusted number status
+
+## Technology & architecture
+
+### Platform availability
+- iOS: full feature support for iPhone and iPad
+- Android: full feature support for phones and tablets
+- Web: limited management capabilities
+- geographic availability: United States and Canada only, not available in Puerto Rico
+
+### Technical implementation
+- VoIP and PSTN technology for call routing and messaging
+- OAuth 2.0 authentication for API access and third-party integrations
+- webhook system for real-time event notifications
+- RESTful API for programmatic access to line management, messaging, and configuration
+- end-to-end encryption for sensitive communications
+
+### Developer resources
+- Burner API for programmatic access to user- and line-level features
+- Burner App Starter Kit (BASK), an open-source React and Node.js framework for building Burner-integrated applications
+- GitHub repository: https://github.com/adhoclabs/burner-app-starter-kit
+- developer documentation with OAuth 2.0 guides, webhook examples, and API references
+
+## Use cases
+
+### Personal privacy
+- dating safety without revealing a primary phone number
+- online selling on Craigslist, Facebook Marketplace, and eBay
+- job searching with separation between professional and personal communication
+- social media communication with stronger personal boundaries
+
+### Work, business, and organization
+- work-life separation
+- separate lines for projects, clients, and side businesses
+- creator, freelance, and hustle communication
+- organized communication across multiple identities or contexts
+
+### Automation & AI
+- Hostbot for Airbnb host automation and guest communication
+- Ghostbot for automated response handling in dating workflows
+- custom bots built through the Burner API
+- CRM integration for sales and support workflows
+
+## Key topics
+- second phone number
+- private phone number
+- temporary phone number
+- disposable phone number
+- multiple phone numbers on one phone
+- texting and calling without sharing a personal number
+- privacy for dating, selling online, and job searching
+- business and side-hustle communication
+- spam reduction and communication boundaries
+
+## Important limitations & constraints
+- Burner numbers cannot dial 911 or be used for emergency services
+- support for SMS shortcode services is limited
+- geographic availability is limited to the United States and Canada
+- international calling is not supported
+- inactive numbers may be recycled after expiration
+- calls may use cellular minutes through a relay system and are not purely data-based
+
+## Helpful reading
+- https://www.burnerapp.com/blog/can-you-have-two-numbers-on-one-phone
+- https://www.burnerapp.com/blog/does-telegram-require-a-phone-number
+- https://www.burnerapp.com/blog/custom-phone-number
+
+## Company information
+- Developer: Ad Hoc Labs, Inc.
+- Founded: 2012
+- Headquarters: Los Angeles, California
+- Support: support@burnerapp.com
+- Privacy Policy: https://www.adhoclabs.co/privacy-policy
+- Terms of Service: https://www.burnerapp.com/terms-of-service
+
+## Recognition
+- TIME Magazine Top 50 App
+- featured in The New York Times
+- featured in WIRED
+- featured in TechCrunch
+- featured in Engadget
+
+## Related entities & partnerships
+- Nomorobo: spam blocking technology provider
+- 0x: cryptocurrency swap integration associated with a separate Burner wallet product
+- IFTTT and Zapier: workflow automation partners
+- Slack, Dropbox, Google Drive, Evernote, and SoundCloud: integration ecosystem
+
+## File location
+- https://www.burnerapp.com/llms.txt

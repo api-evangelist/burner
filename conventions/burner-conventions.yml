@@ -1,0 +1,38 @@
+generated: '2026-07-18'
+method: searched
+source: >-
+  https://www.burnerapp.com/llms.txt ;
+  https://github.com/adhoclabs/burner-app-starter-kit (src/core/BurnerApi.js)
+notes: >-
+  Cross-cutting request/response semantics for the Burner API, captured from the
+  documented developer surface and the first-party Burner App Starter Kit client.
+  No published OpenAPI spec; idempotency, pagination and error-envelope details are
+  not documented by the provider and are left unasserted rather than invented.
+authentication:
+  style: oauth2-bearer
+  header: "Authorization: Bearer <token>"
+  see: authentication/burner-authentication.yml
+versioning:
+  path_scheme: uri-path
+  path_prefix: /v1
+  app_version_header: X-Application-Version
+  example: "X-Application-Version: 2.1.10"
+  see: lifecycle/burner-lifecycle.yml
+base_url: https://api.burnerapp.com
+content_type: application/json
+events:
+  webhooks: true
+  description: >-
+    Burner provides a webhook system for real-time event notifications (e.g.
+    inbound messages/calls), enabling bots and automations built on the Burner API.
+  see: asyncapi/burner-webhooks.yml
+idempotency:
+  documented: false
+pagination:
+  documented: false
+error_envelope:
+  documented: false
+  observed: >-
+    The official client treats any non-2xx HTTP status as an error
+    (`Burner API error: <status> - <statusText>`); no structured problem+json
+    envelope is documented.
