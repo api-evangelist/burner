@@ -1,22 +1,24 @@
 generated: '2026-07-18'
 method: derived
 status: candidate
-source: >-
-  https://github.com/adhoclabs/burner-app-starter-kit (src/core/BurnerApi.js) ;
-  https://www.burnerapp.com/llms.txt
-notes: >-
-  Burner publishes no official hosted/remote MCP server. This is a CANDIDATE tool
-  list derived from the first-party Burner API client (BASK) and documented API
-  surface — a starting point for an MCP wrapper, not a provider claim. No OpenAPI
-  spec exists to enumerate the full operation set; only the operations exposed by
-  the official client are listed.
+source: https://github.com/adhoclabs/burner-app-starter-kit (src/core/BurnerApi.js) ; https://www.burnerapp.com/llms.txt
+notes: Burner publishes no official hosted/remote MCP server. This is a CANDIDATE tool list derived from
+  the first-party Burner API client (BASK) and documented API surface — a starting point for an MCP wrapper,
+  not a provider claim. No OpenAPI spec exists to enumerate the full operation set; only the operations
+  exposed by the official client are listed.
 server:
   name: burner
   transport: http
 tools:
-  - name: list_burners
-    description: Fetch the authenticated user's list of Burner numbers.
-    source_operation: "GET https://api.burnerapp.com/v1/burners"
-  - name: send_message
-    description: Send an SMS/MMS message from a Burner number to a phone number.
-    source_operation: "POST https://api.burnerapp.com/v1/messages"
+- name: list_burners
+  description: Fetch the authenticated user's list of Burner numbers.
+  source_operation: GET https://api.burnerapp.com/v1/burners
+- name: send_message
+  description: Send an SMS/MMS message from a Burner number to a phone number.
+  source_operation: POST https://api.burnerapp.com/v1/messages
+deployment:
+  mode: none
+  verified: derived
+  tools: 2
+  checked: '2026-08-12'
+  source: catalog MCP census
