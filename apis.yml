@@ -44,6 +44,19 @@ tags:
 - Privacy
 - Communications
 - Second Phone Number
+- Authentication
+- Webhook
+tags_raw:
+- Company
+- Phone Numbers
+- SMS
+- MMS
+- Voice
+- Messaging
+- Telephony
+- Privacy
+- Communications
+- Second Phone Number
 - OAuth
 - Webhooks
 apis:
