@@ -64,6 +64,104 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Burner is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Burner is the original second-phone-number app from Ad Hoc Labs (founded 2012, Los Angeles), letting people create multiple temporary or permanent phone numbers on a single iOS or Android device for privacy, communication management, and boundary-setting. Burner supports voice calls, SMS and MMS over VoIP/PSTN, with spam blocking, voicemail transcription, auto-reply and multi-line management. For developers, Burner exposes an OAuth 2.0 REST API (api.burnerapp.com) for programmatic line management and messaging, a webhook system for real-time event notifications, and the open-source Burner App Starter Kit (BASK) for building Burner-integrated apps and bots such as Hostbot and Ghostbot.
 
-Backed by: 500-global — https://burnerapp.com
+**Areas:** Company · Phone Numbers · SMS · MMS · Voice · Messaging · Telephony · Privacy · Communications · Second Phone Number · Authentication · Webhook
+
+## Burner on APIs.io
+
+Everything profiled for Burner is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/burner/](https://apis.io/providers/burner/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Burner API](https://apis.io/apis/burner/burner-api/) — OAuth 2.0 REST API for programmatic access to Burner line management, messaging (SMS/MMS) and configuration, plus a webhook system for real-time event…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Burner Webhooks](https://apis.io/asyncapis/burner/burner-webhooks/)
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [burner](https://apis.io/servers/burner/burner/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Burner Authentication](https://apis.io/security/burner/burner-authentication/)
+- [Burner Domain Security](https://apis.io/security/burner/burner-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.burnerapp.com)
+- [Documentation](https://github.com/adhoclabs/burner-app-starter-kit)
+- [Pricing](https://www.burnerapp.com/pricing)
+- [Support](https://support.burnerapp.com/)
+- [Blog](https://www.burnerapp.com/blog)
+- [Terms of service](https://www.burnerapp.com/terms-of-service)
+- [Privacy policy](https://www.adhoclabs.co/privacy-policy)
+- [GitHub](https://github.com/adhoclabs)
+- [Status](https://status.burnerapp.com/)
+
+## API Evangelist rating
+
+**Kin Score 37.5** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 39.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 38.2 |
+
+**Agent readiness 19.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 20.8** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/burner/](https://apis.io/providers/burner/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Burner: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/burner/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
